@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803589277622",
+    "project_id": "esignature-app-8c531",
+    "storage_bucket": "esignature-app-8c531.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803589277622:android:b1584430dd9b2130f7a317",
+        "android_client_info": {
+          "package_name": "com.example.e_signature"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB52q52yBN0On3vBv8XA7trT2YQVoOzITQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
