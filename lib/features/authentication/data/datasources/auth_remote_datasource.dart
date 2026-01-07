@@ -1,4 +1,3 @@
-
 import 'package:e_signature/core/errors/exceptions.dart';
 import 'package:e_signature/features/authentication/data/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';

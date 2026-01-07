@@ -5,11 +5,7 @@ class DocumentCard extends StatelessWidget {
   final DocumentEntity document;
   final VoidCallback onTap;
 
-  const DocumentCard({
-    super.key,
-    required this.document,
-    required this.onTap,
-  });
+  const DocumentCard({super.key, required this.document, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

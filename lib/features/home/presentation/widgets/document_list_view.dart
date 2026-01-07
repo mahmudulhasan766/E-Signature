@@ -1,4 +1,3 @@
-
 import 'package:e_signature/core/widgets/error_widget.dart';
 import 'package:e_signature/core/widgets/loading_widget.dart';
 import 'package:e_signature/features/authentication/presentation/cubit/auth_cubit.dart';
@@ -7,10 +6,10 @@ import 'package:e_signature/features/authentication/presentation/pages/login_pag
 import 'package:e_signature/features/document/presentation/cubit/document_cubit.dart';
 import 'package:e_signature/features/document/presentation/cubit/document_state.dart';
 import 'package:e_signature/features/document/presentation/pages/docoment_editor_page.dart';
+import 'package:e_signature/features/document/presentation/pages/signing_page.dart';
 import 'package:e_signature/features/document/presentation/widgets/document_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../document/domain/entities/document_entity.dart';
 
 class DocumentListView extends StatelessWidget {
@@ -90,8 +89,7 @@ class DocumentListView extends StatelessWidget {
     if (document.isPublished) {
       Navigator.of(context).push(
         MaterialPageRoute(
-          //builder: (_) => SigningPage(documentId: document.id),
-          builder: (_) => LoginPage(),
+          builder: (_) => SigningPage(documentId: document.id),
         ),
       );
     } else {

@@ -1,4 +1,3 @@
-
 import 'package:e_signature/core/widgets/custom_button.dart';
 import 'package:e_signature/features/authentication/presentation/cubit/auth_cubit.dart';
 import 'package:e_signature/features/authentication/presentation/cubit/auth_state.dart';

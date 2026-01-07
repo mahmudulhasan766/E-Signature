@@ -1,4 +1,3 @@
-
 import 'package:e_signature/features/document/domain/entities/document_entity.dart';
 import 'package:equatable/equatable.dart';
 

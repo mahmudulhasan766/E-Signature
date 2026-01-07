@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import '../../domain/entities/field_entity.dart';
 
@@ -42,9 +41,7 @@ class _TextFieldInputState extends State<TextFieldInput> {
           controller: _controller,
           decoration: InputDecoration(
             hintText: 'Enter text here',
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(8),
-            ),
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
             filled: true,
             fillColor: Colors.grey[50],
           ),

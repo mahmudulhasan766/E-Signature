@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import '../../domain/entities/field_entity.dart';
 

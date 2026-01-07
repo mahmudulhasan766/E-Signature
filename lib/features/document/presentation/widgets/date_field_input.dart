@@ -57,7 +57,9 @@ class _DateFieldInputState extends State<DateFieldInput> {
                       : 'Select a date',
                   style: TextStyle(
                     fontSize: 16,
-                    color: _selectedDate != null ? Colors.black : Colors.grey[600],
+                    color: _selectedDate != null
+                        ? Colors.black
+                        : Colors.grey[600],
                   ),
                 ),
                 const Spacer(),
@@ -70,8 +72,8 @@ class _DateFieldInputState extends State<DateFieldInput> {
         ElevatedButton.icon(
           onPressed: _selectedDate != null
               ? () {
-            widget.onCompleted(_selectedDate!.toIso8601String());
-          }
+                  widget.onCompleted(_selectedDate!.toIso8601String());
+                }
               : null,
           icon: const Icon(Icons.check),
           label: const Text('Save Date'),
@@ -89,9 +91,7 @@ class _DateFieldInputState extends State<DateFieldInput> {
       builder: (context, child) {
         return Theme(
           data: Theme.of(context).copyWith(
-            colorScheme: const ColorScheme.light(
-              primary: Colors.purple,
-            ),
+            colorScheme: const ColorScheme.light(primary: Colors.purple),
           ),
           child: child!,
         );

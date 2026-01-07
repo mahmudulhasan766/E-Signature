@@ -1,4 +1,3 @@
-
 import 'package:e_signature/core/constants/app_constants.dart';
 import 'package:e_signature/core/errors/exceptions.dart';
 import 'package:file_picker/file_picker.dart';

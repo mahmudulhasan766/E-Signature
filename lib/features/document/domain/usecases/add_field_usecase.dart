@@ -3,7 +3,6 @@ import 'package:e_signature/core/errors/failures.dart';
 import 'package:e_signature/features/document/domain/entities/document_entity.dart';
 import 'package:e_signature/features/document/domain/entities/field_entity.dart';
 import 'package:e_signature/features/document/domain/repositories/document_repository.dart';
-
 import '../../../../core/usecase/usecase.dart';
 
 class AddFieldUseCase implements UseCase<DocumentEntity, AddFieldParams> {
