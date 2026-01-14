@@ -10,6 +10,7 @@ class AddFieldUseCase implements UseCase<DocumentEntity, AddFieldParams> {
 
   AddFieldUseCase(this.repository);
 
+  @override
   Future<Either<Failure, DocumentEntity>> call(AddFieldParams params) async {
     return await repository.addField(params.documentId, params.field);
   }
