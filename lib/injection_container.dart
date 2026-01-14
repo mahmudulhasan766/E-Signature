@@ -12,6 +12,7 @@ import 'package:e_signature/features/document/data/datasources/document_remote_d
 import 'package:e_signature/features/document/data/repositories/document_repository_impl.dart';
 import 'package:e_signature/features/document/domain/repositories/document_repository.dart';
 import 'package:e_signature/features/document/domain/usecases/add_field_usecase.dart';
+import 'package:e_signature/features/document/domain/usecases/edit_document_usecase.dart';
 import 'package:e_signature/features/document/domain/usecases/export_fields_usecase.dart';
 import 'package:e_signature/features/document/domain/usecases/generate_pdf_usecase.dart';
 import 'package:e_signature/features/document/domain/usecases/get_documentsuse_case.dart';

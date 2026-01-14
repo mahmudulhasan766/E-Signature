@@ -1,4 +1,5 @@
 import 'package:e_signature/features/authentication/presentation/cubit/signing_state.dart';
+import 'package:e_signature/features/document/domain/usecases/edit_document_usecase.dart';
 import 'package:e_signature/features/document/domain/usecases/generate_pdf_usecase.dart';
 import 'package:e_signature/features/document/presentation/cubit/editor_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
