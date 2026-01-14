@@ -15,7 +15,7 @@ class UploadDocumentUseCase implements UseCase<DocumentEntity, UploadDocumentPar
   }
 }
 
-class UploadDocumentParams {
+    class UploadDocumentParams {
   final String filePath;
   final String userId;
 
